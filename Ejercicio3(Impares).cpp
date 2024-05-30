@@ -5,7 +5,7 @@
 
     int n=0;
 
-    cout << "Ingrese la cantidad de numeros que desea guardar. \n";
+    cout << "Ingrese la cantidad de numeros impares que desea guardar. \n";
     cin >> n;
 
     int impares[n];
@@ -13,7 +13,7 @@
         
         do{
 
-            cout << "Ingrese un numero: \n";
+            cout << "Ingrese un numero impar: \n";
             cin >> impares[n];
             impares[i]=impares[n];
         
