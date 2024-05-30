@@ -15,9 +15,10 @@
 
             cout << "Ingrese un numero: \n";
             cin >> impares[n];
+            impares[i]=impares[n];
         
         }
-        while(impares[n]%2==1);
+        while(impares[i]%2!=0);
     }
     cout << "Sus numeros son: \n";
     for(int i=0; i<n; i++){
