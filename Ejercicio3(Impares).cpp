@@ -18,7 +18,7 @@
             impares[i]=impares[n];
         
         }
-        while(impares[i]%2!=0);
+        while(impares[i]%2==0);
     }
     cout << "Sus numeros son: \n";
     for(int i=0; i<n; i++){
